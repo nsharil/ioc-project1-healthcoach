@@ -1,24 +1,165 @@
 <!DOCTYPE html>
 <html>
-    <head>
-
-    </head>
+        <!DOCTYPE html>
+        <html>
+        <!-- Header for HTML where we add external resources and metadata-->
+        
+        <head>
+         
+            <!-- This is fontawesome icons -->
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+            <!-- Font family : Quicksand 300, 500, 700-->
+        
+                 <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+        
+            <!-- Gridlex stylesheet -->
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css" />
+        
+            <!-- This is custom stylesheet -->
+            <link href="style.css" rel="stylesheet" />
+            
+        </head>
 
     <body>
  <!-- Header Section -->
-        <header>
-
+                              
+        <header class="grid">
+        <div class="col-4-middle">
+            <h2 class="caps"> Health Coach </h2>
+        </div>
+        <nav class="col-8-middle right">
+          <a href="#"> About </a>
+          <a href="#"> Services </a>
+          <a href="#"> Testimonials </a>
+          <a href="#" class="button-inverted"> Book Your Call </a>
+        </nav>
+      </header>
         </header>
         
 <!-- Welcome Banner -->
-        <section>
+        <section class="banner-with-header grid-center fixed">
+                <!-- <div class="col-6_sm-12-middle centered">
+                        <h2 class="big-bold"> This this a heading </h2>
+                        <h3 class="not-bold"> This is a sub-heading </h3>
+                </div> -->
+      </section>
+<!-- Quote Section -->
 
+        <section class="padded grid-center capped-width">
+                <div class="col-3 padded-1">
+                        <span class="quote-icon"> “ </span>
+                        </div>
+                        <div class="col-9 padded-1">
+                        <p class="emphasis">
+                        Let thy food be thy medicine
+                        </p>
+                        <p> - Hippocrates </p>
+                </div>
+      </section>
 
-        </section>
+<!-- About Section -->
 
+        <section class="grid light-bg">
+                <div class="banner bg-profile col-6_sm-12">
+                </div>
+                <div class="col-6_sm-12-middle padded">
+                <h2 class="big-bold"> Hi, my name is Sarah </h2>
+                <p class="padded-top"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+      </section>
+
+<!-- Services Section -->
+        <section class="padded centered">
+                <h2> What I Offer </h2>
+                <div class="grid padded-1">
+                <div class="col-4_sm-12 padded-1">
+                <i class="far fa-building big-icon"></i>
+                <h4> 1-to-1 Coaching </h4>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                </div>
+                <div class="col-4_sm-12 padded-1">
+                <i class="far fa-comment big-icon"></i>
+                <h4> Group Coaching </h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="col-4_sm-12 padded-1">
+                <i class="far fa-file big-icon"></i>
+                <h4> Corporate Events </h4>
+                <p>Irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+                </div>
+      </section>
+
+<!-- Testimonial Section  -->
+
+        <section class="light-bg centered padded">
+                <h2> Reviews </h2>
+                <div class="grid padded-1">
+        
+                <div class="col-4_sm-12 padded-1">
+                <div class="card light-bg">
+                <img src="/images/headshot-3.png" class="profile">
+                <p class="author"> John </p>
+                <p class="company"> Executive, 34 </p>
+                <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+
+                </div>
+                </div>
+        
+                <div class="col-4_sm-12 padded-1">
+                <div class="card light-bg">
+                <img src="/images/headshot-1.png" class="profile">
+                <p class="author"> Jane </p>
+                <p class="company"> Entrepreneur, 28 </p>
+                <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+               
+                </div>
+                </div>
+        
+                <div class="col-4_sm-12 padded-1">
+                <div class="card light-bg">
+                <img src="/images/headshot-2.png" class="profile">
+                <p class="author"> Jude </p>
+                <p class="company"> Architect, 40 </p>
+                <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+              
+                </div>
+                </div>
+      
+      </section>
+
+<!-- CTA Section -->
+
+<section class="grid padded">
+        <div class="col-6_sm-12 padded">
+          <h2> Book Your Call Today </h2>
+          <p> Curious on how we can work together? Book a call with me today!</p>
+          <form class="grid-center" action="https://formspree.io/hello@company.com" method="POST">
+                <div class="col-6_sm-12">
+                  <input type="text" name="name" placeholder="Your Name">
+                </div>
+                <div class="col-6_sm-12">
+                  <input type="email" name="_replyto" placeholder="Your Email">
+                </div>
+                <div class="col-12">
+                  <textarea placeholder="Your Message"></textarea>
+                  <input type="submit" value="Send" class="button">
+                </div>
+              </form>
+        </div>
+        <div class="col-6_sm-12-middle banner bg-profile padded">
+         
+        </div>
+      </section>
 <!-- Footer Section -->
         <footer>
-
+               
 
         </footer>
 

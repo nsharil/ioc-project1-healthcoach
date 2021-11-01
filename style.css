@@ -24,9 +24,9 @@
   }
   
   nav a {
-      padding: 0.5rem;
+      padding: 0.8rem;
   }
-  
+
   /* ------------- Utility Classes --------------  */
   
     .left     {  text-align: left;     }
@@ -157,7 +157,7 @@
 /* Quote Style */
 
 .quote-icon {
-    font-size: 10vh;
+    font-size: 15vh;
     margin-top: -2vh;
   }
 

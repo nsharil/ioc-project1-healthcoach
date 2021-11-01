@@ -25,6 +25,7 @@
   
   nav a {
       padding: 0.8rem;
+      display: inline-block; 
   }
 
   /* ------------- Utility Classes --------------  */
@@ -157,7 +158,7 @@
 /* Quote Style */
 
 .quote-icon {
-    font-size: 15vh;
+    font-size: 10vh;
     margin-top: -2vh;
   }
 
@@ -213,7 +214,8 @@
     padding: 0.8em;
     display: block;
     width: 100%;
-    font-size: 1rem;
+    font-size: inherit;
+    font-family: inherit;
     vertical-align: top;
   }
   

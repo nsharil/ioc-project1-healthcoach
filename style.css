@@ -316,7 +316,8 @@
   .show-xs { display: block; }
   .hide-xs { display: none;  }
 
-  .xs-text-center { text-align: center; }
+  .xs-text-center   { text-align: center; }
+  .xs-padded-b-0    { padding-bottom: 0; }
 
   p.emphasis { font-size: 2rem;}
 }

@@ -1,4 +1,6 @@
-$('.slider-container').slick({
+$(document).ready(function(){
+
+	$('.slider-container').slick({
 	autoplay: true, // Do we want it to autoplay? true or false
 	autoplaySpeed: 2000, // How long between each slide when auto-playing
 	speed: 500, // How fast is the transition in milliseconds
@@ -8,5 +10,6 @@ $('.slider-container').slick({
 	fade: false, // Changes the animate from slide to fade if true
 	infinite: false, // When true, means that it will scroll in a circle
 	pauseOnHover: false, // When true means the autoplay pauses when hovering
-	pauseOnDotsHover: true, // Pauses the autoplay when hovering over the dots
+	pauseOnDotsHover: true // Pauses the autoplay when hovering over the dots
+	});
 });

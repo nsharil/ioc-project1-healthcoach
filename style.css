@@ -56,7 +56,7 @@
   
     .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
   
-      /* General typography */
+  /* General typography */
   
       h2, h3, h4, h5, h6 {
       line-height: 1;
@@ -90,7 +90,7 @@
       }
   
   
-      /* Unique Typography Styles */
+  /* Unique Typography Styles */
   
       .emphasis {
           font-size: 3rem;
@@ -101,7 +101,7 @@
       }
 
   
-      /* Button & Link Styles */
+  /* Button & Link Styles */
   
   
       a:hover {
@@ -205,6 +205,19 @@
   .card .company {
     margin-bottom: 2rem;
   }
+
+/* Slider Style */
+
+.slider-container {
+  padding: 5%;
+  border: 2px solid lightblue;
+}
+
+.slider-item {
+  padding: 1rem;
+  border: 2px solid orange;
+}
+
 
   /* CTA Style */
 
